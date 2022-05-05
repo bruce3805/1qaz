@@ -329,7 +329,7 @@ class Tetris(object):
         # Clean the screen, draw the board and draw
         # all tetris blocks
         self.screen.fill(constants.BLACK)
-        self.draw_board()
+        self.draw_board(RED)
         for blk in self.blk_list:
             blk.draw()
         # Draw the screen buffer
